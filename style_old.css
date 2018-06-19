@@ -1,0 +1,57 @@
+body{
+    background-color: yellow;
+    font: normal;
+    font-size: 20px;
+    /* color: red; */
+    background-image: url('../HybridSalesPageBG.jpg');
+    background-repeat: repeat;
+    background-position: top right;
+}
+
+p.special{
+    text-align: right;
+}
+
+.wrapper{
+    width: 50%;
+    background-color: beige;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue
+}
+
+li:first-child{
+    color:red
+}
+
+li:last-child{
+    color:blue
+}
+
+li:nth-child(2){
+    color: lightgreen
+}
+
+a:visited{
+    color:aqua
+}
+
+a:hover{
+    color:red
+}
+
+a:focus{
+    color:black
+}
+
+a:active{
+    color:blue
+}
+
+input:checked{
+    margin: 10px
+}
+
+input:disabled{
+    color:red
+}

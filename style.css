@@ -1,0 +1,29 @@
+body{
+    background-color: aquamarine
+}
+
+.logo{
+    width: 10%;
+}
+
+.wrapper{
+    width:50%;
+    background-color: white;
+    padding: 30px;
+    margin: 10px;
+    overflow: hidden
+}
+
+main {
+    float:left;
+    background-color: rgb(221, 112, 121)
+}
+
+aside {
+    float:right;
+    background-color: rgb(101, 218, 101)
+}
+
+footer{
+    clear: both
+}
